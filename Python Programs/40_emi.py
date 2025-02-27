@@ -1,0 +1,5 @@
+p=int(input())
+r=int(input())
+n=int(input())
+emi=(p*r*(1+r)^n)/((1+r)^n-1)
+print("The monthly installment is :",emi)

@@ -1,0 +1,8 @@
+a=int(input("Enter number 1:"))
+b=int(input("Enter number 2:"))
+print("Bitwise AND",a&b)
+print("Bitwise OR",a|b)
+print("Bitwise XOR",a^b)
+print("Bitwise NOT",~a)
+print("Left shift",a<<b)
+print("Right shift",a>>b)
